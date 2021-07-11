@@ -26,3 +26,20 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+***
+(SANTOS)
+
+Aside from the reasons mentioned in class, why do we need to study and analyze data?
+
+		There can be many interpretations that can be extracted in a given data. It is important to learn and analyze data because it is our job as human beings to extract meaning from the raw data. These data can show patterns that may happen in the future based on the behavior of the data in the present. Data analyzation is important for companies or organizations because they can determine what parts are they the strongest or the weakest.
+
+Cite atleast one instance or application where data science was used and contributed on policy-making, day-to-day decisions, knowing market trends, and scientific researches.
+
+		Data science is used in search engines wherein it makes use of algorithms that sorts the websites that is applicable to the term that was searched. Numerous websites can appear in searching for an object. Data science makes sure that the sites that are on top are the ones that people click the most or the information is the most reliable.
+
+Propose atleast one data science topic that you want to pursue: Have a broad description of the topic, describe the availability of the data, what kinds of statistical method you think you will need, and who would benefit this study.
+
+		Dota 2 is a MOBA game that is known by many people. One of the features in the is that it calculates your behavioral score per game in terms of the reports you have received or the games you have quitted. You can be reported due to communication abuse, intentional feeding, mechanical ability abuse. With the data of the behavioral score, we can make it more significant if we were to use this data. An idea is that the behavioral score can be paired with the KDA status of the player to determine if he/she has anger issues, is a "smurf", or needs to be coached. The MCT of the KDA shall be needed in order to describe the correlation of the behavioral scores and the KDA of the players. The players of Dota shall benefit the topic because coaching can improve the play style of a player, smurfs must be banned, and other treatment shall be given to players with anger issues. 
+		
+***
