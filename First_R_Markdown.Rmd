@@ -36,6 +36,9 @@ Cite atleast one instance or application where data science was used and contrib
   
     One application of Data Science is in recommendation systems of applications such as Netflix, Spotify, Lazada, etc. The data from the previous choices of the user are collected and algorithms are used to determine what other items, songs or movies a user might prefer so that the system could recommend it to the user. By having this system, both the user and the provider benefit as it shortens the time of finding items and the user is most likely to be satisfied with the application.
     
+Click [here](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.appier.com%2Fblog%2Fwhat-is-a-recommendation-engine-and-how-does-it-work%2F%3Ffbclid%3DIwAR3NDzB0E4ClQwYxoGaxhkxWnh2i0VHQMX8oiK7244lhoB08Q47tFX_UDVQ&h=AT3fRsI0aBO3Ae10NbBZUXKRkjXE1o2ezAqoONtNvzm4wyUndkEc4mGYityrc1D8jGb009c_UHT52KpykUaorTwHuBh6tzbmGaP6AOzZ6Klppdkl67SwTudpq-VSRVezGvPYWg) to read a more detailed article
+    
+    
 Propose atleast one data science topic that you want to pursue: Have a broad description of the topic, describe the availability of the data, what kinds of statistical method you think you will need, and who would benefit this study.
     
     Netflix is one of the most used applications in the Philippines at the present. In the app, we are able to see the daily trend for shows and movies. From this data, the preference of Filipinos in movies and shows can be described and analyzed using descriptive statistics, mean, median and mode. The results can be beneficial to the filmmakers to be able to identify what they should give to the Filipino viewers. On the other hand, the Filipinos will also benefit from having more choices of their own preference. Further researches can also be done to investigate the reasons for the preference.
