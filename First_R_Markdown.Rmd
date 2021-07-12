@@ -7,6 +7,8 @@ output:
 ---
 
 ***
+
+
 (SANTOS)
 
 Aside from the reasons mentioned in class, why do we need to study and analyze data?
@@ -44,7 +46,9 @@ Propose atleast one data science topic that you want to pursue: Have a broad des
   h1 {
   color: gray();
   }
-
+  body {
+    text-align: justify
+  }
   ```
   What Is a Recommendation Engine and How Does It Work? (2020, September 10). Appier. <https://www.appier.com/blog/what-is-a-recommendation-engine-and-how-does-it-work/?fbclid=IwAR3qj5B65PCh5wyWeTZGS86eyst1tM-moAmHuxA_pFsefJKo1hIBe-bfosk>
     
