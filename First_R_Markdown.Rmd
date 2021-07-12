@@ -2,10 +2,7 @@
 title: "First R Markdown"
 fontsize: 30
 output: 
-  flexdashboard::flex_dashboard:
-    orientation: rows
-    vertical_layout: fill
-    source_code: embed
+  html_document: 
     theme: readable
 ---
 
