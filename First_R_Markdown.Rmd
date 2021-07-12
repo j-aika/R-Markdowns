@@ -3,30 +3,6 @@ title: "First R Markdown"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
 ***
 (SANTOS)
 
@@ -43,3 +19,5 @@ Propose atleast one data science topic that you want to pursue: Have a broad des
 		Dota 2 is a MOBA game that is known by many people. One of the features in the is that it calculates your behavioral score per game in terms of the reports you have received or the games you have quitted. You can be reported due to communication abuse, intentional feeding, mechanical ability abuse. With the data of the behavioral score, we can make it more significant if we were to use this data. An idea is that the behavioral score can be paired with the KDA status of the player to determine if he/she has anger issues, is a "smurf", or needs to be coached. The MCT of the KDA shall be needed in order to describe the correlation of the behavioral scores and the KDA of the players. The players of Dota shall benefit the topic because coaching can improve the play style of a player, smurfs must be banned, and other treatment shall be given to players with anger issues. 
 		
 ***
+
+  
