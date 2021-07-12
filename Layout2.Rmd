@@ -1,10 +1,11 @@
 ---
 title: "First R Markdown"
-output: html_document
----
+author: "Gian Nicole Villamayor, Jessica Dela Cruz, John Lester Santos, Rollic Conducto"
+date: "12/07/2021"
+output: 
+  html_document:
+    code_download: true
 
-title: "First R Markdown"
-output: html_document
 ---
 
 ***
@@ -52,5 +53,16 @@ Propose atleast one data science topic that you want to pursue: Have a broad des
     
     Netflix is one of the most used applications in the Philippines at the present. In the app, we are able to see the daily trend for shows and movies. From this data, the preference of Filipinos in movies and shows can be described and analyzed using descriptive statistics, mean, median and mode. The results can be beneficial to the filmmakers to be able to identify what they should give to the Filipino viewers. On the other hand, the Filipinos will also benefit from having more choices of their own preference. Further researches can also be done to investigate the reasons for the preference.
 
+# References
 
-  
+```{css, echo = FALSE}
+
+  h1 {
+  color: gray();
+  }
+  body {
+    text-align: justify;
+  }
+  ```
+  What Is a Recommendation Engine and How Does It Work? (2020, September 10). Appier. <https://www.appier.com/blog/what-is-a-recommendation-engine-and-how-does-it-work/?fbclid=IwAR3qj5B65PCh5wyWeTZGS86eyst1tM-moAmHuxA_pFsefJKo1hIBe-bfosk>
+
