@@ -20,4 +20,18 @@ Propose atleast one data science topic that you want to pursue: Have a broad des
 		
 ***
 
+(Dela Cruz)
+
+Aside from the reasons mentioned in class, why do we need to study and analyze data?
+
+    In every action that we do, there are data being generated. It is important to analyze these data as it gives meaning to the things that we do and how things around us work. When statistics is applied to data it can predict what outcome is most likely to happen. This is why it can help in planning and decision making in business, research and in many other fields. For example, if I were to run a business in a certain area, analyzing relevant data can help determine what it should be for my business to be most likely to succeed and profit in a long term. 
+  
+Cite atleast one instance or application where data science was used and contributed on policy-making, day-to-day decisions, knowing market trends, and scientific researches.
+  
+    One application of Data Science is in recommendation systems of applications such as Netflix, Spotify, Lazada, etc. The data from the previous choices of the user are collected and algorithms are used to determine what other items, songs or movies a user might prefer so that the system could recommend it to the user. By having this system, both the user and the provider benefit as it shortens the time of finding items and the user is most likely to be satisfied with the application.
+    
+Propose atleast one data science topic that you want to pursue: Have a broad description of the topic, describe the availability of the data, what kinds of statistical method you think you will need, and who would benefit this study.
+    
+    Netflix is one of the most used applications in the Philippines at the present. 
+
   
