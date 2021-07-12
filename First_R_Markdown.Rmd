@@ -32,6 +32,4 @@ Cite atleast one instance or application where data science was used and contrib
     
 Propose atleast one data science topic that you want to pursue: Have a broad description of the topic, describe the availability of the data, what kinds of statistical method you think you will need, and who would benefit this study.
     
-    Netflix is one of the most used applications in the Philippines at the present. 
-
-  
+    Netflix is one of the most used applications in the Philippines at the present. In the app, we are able to see the daily trend for shows and movies. From this data, the preference of Filipinos in movies and shows can be described and analyzed using descriptive statistics, mean, median and mode. The results can be beneficial to the filmmakers to be able to identify what they should give to the Filipino viewers. On the other hand, the Filipinos will also benefit from having more choices of their own preference. Further researches can also be done to investigate the reasons for the preference.
