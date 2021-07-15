@@ -1,0 +1,9 @@
+---
+title: "Probability"
+author: Gian Nicole Villamayor, Jessica Dela Cruz, John Lester Santos, John Rollic
+  Conducto
+date: "7/16/2021"
+output: html_document
+---
+
+
