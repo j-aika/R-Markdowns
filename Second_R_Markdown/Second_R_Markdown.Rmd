@@ -84,23 +84,23 @@ In a more mathematical way, here is the explanation for the total amount to acco
 $$\LARGE {_{n}C_{k}=\frac{n!}{k!(n-k)!} }$$
 <center>
 <p style="text-align: left;">
-Use the formula for combination without repetitions to determine how many combinations of numbers are there.
+Use the formula for combination without repetitions to determine how many combinations of numbers are there:
 </p>
 
 <p style="text-align: left;"> Here: <br>
 n = total number of choices <br>
 k = number of items we need to select <br><br>
-Subtitute the values for n and k. </p>
+Subtitute the values for n and k: </p>
 
 $$\LARGE {_{58}C_{6}=\frac{58!}{6!(58-6)!} }$$
 <p style="text-align: left;">
-Simplify and evaluate. </p>
+Simplify and evaluate: </p>
 
 $$\large {=\frac{58!}{6!52!} }$$
 
 $$\LARGE \hspace{20 mm}=40,475,358$$
 <p style="text-align: left;">
-After getting the no. of combinations, multiply it by 20 to determine how much would it cost to bet on all of the combinations. </p>
+After getting the no. of combinations, multiply it by 20 to determine how much would it cost to bet on all of the combinations: </p>
 
 $$\large (40,475,358)(₱20)$$
 $$\large \hspace{0 mm}\fbox{=₱809,507,160}$$
