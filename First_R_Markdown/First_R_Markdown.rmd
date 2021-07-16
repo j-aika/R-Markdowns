@@ -1,0 +1,186 @@
+---
+title: "First R Markdown"
+author: "Gian Nicole Villamayor, Jessica Dela Cruz, John Lester Santos, John Rollic Conducto"
+date: "12/07/2021"
+output: 
+  html_document:
+    code_download: true
+
+---
+
+***
+
+### I. Aside from the reasons mentioned in class, why do we need to study and analyze data?
+<br>
+<center> ![](images\DataSci.jpg) </center>
+<br>
+<br>
+
+
+
+#### 1. It can determine Strengths and Weaknesses.
+
++ There can be many interpretations that can be extracted in a given data. It is important to learn and analyze data because it is our job as human beings *to extract meaning from the raw data.* These data can show patterns that may happen in the future based on the behavior of the data in the present. Data analyzation is important for companies or organizations because they can determine what parts are they **the strongest or the weakest.**
+
+<br>
+
+
+#### 2. Predicts an outcome
+
++ In every action that we do, there are data being generated. It is important to analyze these data as it gives meaning to the things that we do and how things around us work. When statistics is applied to data it can predict what outcome is **most likely to happen**. This is why it can help in planning and decision making in business, research and in many other fields. For example, if I were to run a business in a certain area, analyzing relevant data can help determine what my business should be for it to have a high chance of succeeding and to be profitable in long term.
+
+<br>
+
+
+#### 3. A modern time machine
+
++ Data analysis enables us to have a *sneak peek at what the future can be.* It is like a **time machine** that can help us determine the several factors that can affect our focus of study. Although the conclusions formed from the results are not a hundred percent accurate, it still provides us a better vision of how the events will probably go on. By garnering a deeper understanding of the different possibilities and risks, we are able to avoid the hazards that we may encounter as we foresee the different chances in a situation. Indeed, it is essential to increase the odds of gaining beneficial outcomes in any field. 
+
+<br>
+
+#### 4.In a more extensive elaboration, here's a short essay to explore the topic:
+<br>
+<br>
+![](images\solving.jpg)
+<br>
+
+<center>
+
+<h4> **Decrypting the Enigma** </h4>
+  
+
+“The measure of intelligence is the ability to change.” - Albert Einstein.
+
+</center>
+
+ 
+  This is what exactly every living thing on this planet shows as everything, not just humans, tend to change or develop overtime. From the archaean eon up to the cenozoic era, nothing remained constant as the both living and nonliving things have changed over time. As the cliche line says, “Change is the only constant thing in this world.” 
+ 
+  With this kind of variability and mercurialism , it is a vital skill to be able to analyze, interpret, or even predict at a certain extent all of these things. If one would just depend on natural things to happen or occur, the race of humans will just be like any other race who could be eradicated suddenly from history, just like what happened with the dinosaurs. Luckily, humanity has already developed ways to understand all of this stuff through what they call “Data Science”.
+ 
+  The ability to study and analyze data has set the human race apart from other species. They could understand nature, inanimate stuffs, or even objects outside our planet — this really gave them a huge advantage to reign at the top of the pyramid.
+
+  Being able to predict weather conditions such as storms and volcanic eruptions; being able to conceptualize how complex building, bridges, and machineries should be built; or being able to comprehend how population, diseases, or deaths fluctuate in the world — all of this became possible due to the analyzation of data, and all of them led the humans to where it is today.
+ 
+  Without this analysis and interpretation of data, humans could not have possibly reached its state right now, or even worse, could have even been extinct already. As you see, data may seem to be annoying to others because of its complexity, but this data paved the way for humans to be able to understand almost all the changes and dynamics that are happening in the world. These data became the foundation on where societies were built and will become the blueprint of how they will be in the future. Studying and analyzing data therefore is important because it is not simply reading letters or numbers but reading what will become of humanity.
+                                                             
+*-Rollic Conducto*
+
+
+***
+
+### II. Cite atleast one instance or application where data science was used and contributed on policy-making, day-to-day decisions, knowing market trends, and scientific researches.
+\
+
+#### 1.Search Engines.
+
++ Data science is used in **search engines** wherein it makes use of algorithms that sorts the websites that is applicable to the term that was searched. Numerous websites can appear in searching for an object. Data science makes sure that the sites that are on top are the ones that people click the most or the information is the most reliable.
+
+<center> ![](images\search.png) </center>
+
+#### 2. Recommendation Systems
+
++ One application of Data Science is in **recommendation systems** of applications such as Netflix, Spotify, Lazada, etc. The data from the previous choices of the user are collected and algorithms are used to determine what other items, songs or movies a user might prefer so that the system could recommend it to the user. By having this system, both the user and the provider benefit as it shortens the time of finding items and the user is most likely to be satisfied with the application. [ --Click here to read a more detailed article--](https://www.appier.com/blog/what-is-a-recommendation-engine-and-how-does-it-work/?fbclid=IwAR3qj5B65PCh5wyWeTZGS86eyst1tM-moAmHuxA_pFsefJKo1hIBe-bfosk)
+
+<center> 
+![](images\recom.jpeg) ![](images\recomsys.jpg)
+</center>
+
+<br>
+
+#### 3. Image Recognition
+
++ Facebook’s **image recognition** is an application of data science. A picture that is uploaded on the said online platform automatically detects the faces of the people and displays name suggestions. This new feature utilizes a *face recognition algorithm* – a process of identification based on facial features. Some search engines also enable the user to upload images and then show the relevant results. 
+
+<center> ![](images\recog1.jpg) ![](images\recog2.jpg) </center>
+
+<br>
+
+#### 4. Axie Infinity
+
++   Almost every Filipino right now has heard the term **Axie Infinity** since it recently gained popularity over the internet these past few weeks. Since this also relies on the stock market, the values or amount of the items in here tend to fluctuate wherein players claim to get an income of around 50 000 pesos per month when the demand for cryptocurrency became on their favor — but at the same time, may also lose a very huge amount when things go rough.
+
++   Data Science’s main weapon is predicting or modelling future outcomes of data that are **"not so easy to predict.”** So basically, instead of going into war with just a 45-caliber gun on your hand, you may barge in with  a tank behind your back and easily eradicate all of your enemies. Data Science could provide a strong tactical base for your troops (money) in order to win the war. Financial battle is not something to be reckoned with if you’re unprepared so having data science to back you up is like having something that only a deus ex machina could do.
+
+<center> ![](images\infinity2.png)![](images\pets2.jpg)![](images\axie2.png)![](images\crypto2.png) </center>
+
+<br>
+
+***
+
+### III. Propose atleast one data science topic that you want to pursue: Have a broad description of the topic, describe the availability of the data, what kinds of statistical method you think you will need, and who would benefit this study.
+\
+
+#### 1. Behavioral Score Feature in Dota 2
+<br>
+![](https://lh5.googleusercontent.com/E3SDrMzFNSb48i1hfwNqBXw1Ri_Q4ViCg0FQKvQSXgll-1l-8dvGUwoy5uqLzhdZBb__GF6duZf9oVaQBnLaGWfWazA3Sqjj0D0z-HgPXabq36ObnwpGs0gQlPZ0tBfE4WFknOyw)
+
++ Dota 2 is a MOBA game that is known by many people. One of the features in the is that it calculates your **behavioral score** per game in terms of the reports you have received or the games you have abandoned. You can be reported due to **communication abuse, intentional feeding, mechanical ability abuse.** With the data of the behavioral score, we can make it more significant if we were to use this data. An idea is that the behavioral score can be paired with the KDA status of the player to determine if he/she has **anger issues, is a "smurf", or needs to be coached.** The MCT of the KDA shall be needed in order to describe the correlation of the behavioral scores and the KDA of the players. The players of Dota shall benefit the topic because coaching can improve the play style of a player, smurfs must be banned, and other treatment shall be given to players with anger issues. 
+
+<br>
+
+#### 2. Filipino's Preference on Movies and Series  
+
+<center>
+  
+![](https://www.goodnewspilipinas.com/wp-content/uploads/2020/12/Star-Cinema-movies.jpg)
+  
+</center>
+
++ Filipinos are one of the top subscribers in streaming services and Netflix is the most popular one in the Philippines. In the app, we are able to see the *daily trend* for shows and movies. This data can be categorized by **genre** and the **region** where it was produced and from this the preference of the Filipinos on movies and shows can be described and analyzed using *descriptive statistics*. The results can be beneficial to the filmmakers to be able to identify what they should give to the Filipino viewers. On the other hand, the Filipinos will also benefit from having more choices of their own preference. The result can also be used for further researches on how local movies and films may improve so it can be well patronized by the Filipinos.
+
+<br>
+
+#### 3. Trends and Interests of Generations
+
+<center>
+
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--odmAXyC2--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7c52o9bi6bpqoiob9q0t.png)
+
+![](https://i.stack.imgur.com/TJLcq.png)
+</center>
++ Anime is a form of entertainment created from animated works. This style originates from Japan and draws out the interests of people from different countries. Investigating the preferences of a certain age range may illustrate the **trend and changes** in the behavior of a population as years pass by. The **search engines** from different anime websites and streaming platforms as well as the conducting of **surveys** can provide the data needed for this study. *Descriptive statistics* will be essential to sort out the data gathered for varying genres. The viewers will gain an idea on the common interests of people of their age, and they will be able to go with the trend. On the other hand, anime producers will know what type of shows should be added to their productions.
+
+<br>
+
+#### 4. Actual State of Families in the Philippines
+
+<center>
+
+![](https://static.straitstimes.com.sg/s3fs-public/articles/2020/06/06/st_20200606_xjobs_57210142.jpg)
+
+![](https://static01.nyt.com/images/2020/05/01/world/01virus-poverty-promo/01virus-poverty-promo-mediumSquareAt3X-v3.jpg)
+
+</center>
+
++   Since the pandemic has spread through the world, the Philippines is one of the countries that could not really withstand its effects on the economy, health sector, education system, and many more aspects of the country. Consequently, each filipino families are being the main victims of this crisis as loss of jobs or  businesses have led to a great many of them experiencing poverty, hunger, and desolation. Although this is not really a new topic here in the Philippines, the pandemic has aggravated this situation a lot worse than before.
+
++   Due to this, I believe that data science could be used to investigate the real state of the families here in the Philippines. *Z-test* of population income means or *regression analysis* could be done to compare their financial situations before and after the pandemic. *Correlation analysis* could also be used in certain locations to determine the relationship between the length of covid-related incidents to the overall state of different family's financial states there. This could help enlighten the country to how much it really suffers in the present time.
+
+		
+***
+
+&nbsp;
+
+# References
+
+  Bhattacharya, J. (2019, Sept 4) How to improve SEO using data science. Search Engine Watch. Retrieved from <https://www.searchenginewatch.com/2019/09/04/improve-seo-using-data-science/>  
+  
+  Malasig, J. (2020, September 10). Philippines ranks 4th among countries with most number of people subscribed to streaming service. Interaksyon, Philstar.  Retrieved from <https://interaksyon.philstar.com/hobbies-interests/2021/07/01/195036/philippines-ranks-4th-among-countries-with-most-number-of-people-subscribed-to-streaming-service/>
+  
+  Stedman, C. (n.d.). What is data science? The ultimate guide. Search Enterprise AI. Retrieved from <https://searchenterpriseai.techtarget.com/definition/data-science>
+  
+  Upasana.(2020, November 25). Data Science Applications: Top 10 Use Cases Of Data Science. Retrieved from https://www.edureka.co/blog/data-science-applications/
+
+  What Is a Recommendation Engine and How Does It Work? (2020, September 10). Appier.  Retrieved from <https://www.appier.com/blog/what-is-a-recommendation-engine-and-how-does-it-work/?fbclid=IwAR3qj5B65PCh5wyWeTZGS86eyst1tM-moAmHuxA_pFsefJKo1hIBe-bfosk>
+  
+
+```{css, echo = FALSE}
+
+  h1 {
+  color: gray();
+  }
+  body {
+    text-align: justify;
+  }
+```

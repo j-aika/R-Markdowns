@@ -1,0 +1,18 @@
+---
+title: "Probability"
+author: Gian Nicole Villamayor, Jessica Dela Cruz, John Lester Santos, John Rollic
+  Conducto
+date: "7/16/2021"
+output: html_document
+---
+<center>
+$$\Huge {_{n}P_{k}=\frac{n!}{k!(n-k)!} }$$
+$$\Huge {_{58}P_{6}=\frac{58!}{6!(58-6)!} }$$
+$$\Huge {=\frac{58!}{6!52!} }$$
+$$\Huge \hspace{25 mm}=40,475,358$$
+
+$$\Huge (40,475,358)(₱20)$$
+$$\Huge \hspace{25 mm}\fbox{=809,507,160}$$
+
+</center>
+
