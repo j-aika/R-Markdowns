@@ -5,14 +5,28 @@ author: Gian Nicole Villamayor, Jessica Dela Cruz, John Lester Santos, John Roll
 date: "7/16/2021"
 output: html_document
 ---
-<center>
-$$\Huge {_{n}P_{k}=\frac{n!}{k!(n-k)!} }$$
-$$\Huge {_{58}P_{6}=\frac{58!}{6!(58-6)!} }$$
-$$\Huge {=\frac{58!}{6!52!} }$$
-$$\Huge \hspace{25 mm}=40,475,358$$
+# Monty Hall Problem 
 
-$$\Huge (40,475,358)(₱20)$$
-$$\Huge \hspace{25 mm}\fbox{=809,507,160}$$
+
+# Lotto Problem
+
+<p> One of the most popular major games of PCSO is the Ultra Lotto 6/58. At ₱20 per ticket, how much would a bettor spend to cover all of the possible combinations. Would the grand prize of ₱50 million cover all the expenses or it would simply incur a massive loss on the bettor? </p>
+<center>
+$$\LARGE {_{n}C_{k}=\frac{n!}{k!(n-k)!} }$$
+$$\LARGE {_{58}C_{6}=\frac{58!}{6!(58-6)!} }$$
+$$\LARGE {=\frac{58!}{6!52!} }$$
+$$\LARGE \hspace{25 mm}=40,475,358$$
+
+$$\LARGE (40,475,358)(₱20)$$
+$$\LARGE \hspace{25 mm}\fbox{=₱809,507,160}$$
 
 </center>
 
+```{css, echo = FALSE}
+  body {
+    text-align: justify;
+  }
+p {
+  font-size: 20px;
+}
+```
