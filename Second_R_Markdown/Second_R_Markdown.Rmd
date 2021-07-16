@@ -16,12 +16,32 @@ output: html_document
 
 <!-- Montal Hall Problem <br> -->
 <!-- Fortune Teller. <br> -->
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During 1960s, a probability puzzle challenged many statisticians and mathematicians in the TV game show named “Let’s Make a Deal”. The problem was named after the popular game show host “Monty Hall” himself and is now labeled as the famous “Monty Hall Problem”. In the game, three doors are 
-One of its game was called “Monty Hall” which was named after its famous game show host. 
-The game “Let’s Make A Deal” was popular because it gave the contestant a chance to win a car. It is a TV game show It was named after the popular game show host “Monty Hall.” Three doors will be presented and the contestant will have to pick one. Behind one of those doors, a red fascinating car awaits to be displayed and be taken home while the other two door contains “zonks” – goats. After the contestant chose a door, Monty will reveal one of the “zonks” by opening the door with it behind. After that you will be given a chance to switch. Now, an internal battle and a question will arise. Will it be an advantage if you switch? One of these doors sits your dream car. Will it really increase the odds of winning the car? There are two possible scenarios for this problem. First, you are able to choose the correct door and gving you the option to switch is just for confusion. The other one is that you picked the wrong door, and the chance Monty has given you will make you win. One that hides a shiny brand new car or two contains typical goats. Stick or switch. Common misconception is that there will be a 50 50 chance but no.  Undesirable prizes like goats. Stir up controversies in academics. 
-CAR] [GOAT] [GOAT] stay = win switch = lose you could also pick the middle goat box initially: [CAR] [GOAT] [GOAT] stay = lose switch = win you could also pick the third box initially: [CAR] [GOAT] [GOAT] stay = lose switch = win
-This is a controversial game because many statisticians and mathematicians argued on the probabilities of winning. At first, blind test firstly occur, you are more likely pick a goat because it has higher probability. this game, three doors will be introduced in front of you. There will be two scenarios. Either you will choose the correct door or pick the wrong door. The factor that will affect your change of winning is the switch option. The intriguing question is this game is “will it be really an advantage if you switch.”
-Switching your door increases the probability of getting the car.
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the American TV game show called **“Let’s Make a Deal,”** a probability puzzle has challenged the minds of numerous statisticians, mathematicians, and scholars. The intriguing problem is named after the game show host, *Monty Hall*, and is currently known as the famous [ **“Monty Hall Problem”**](https://www.statisticshowto.com/probability-and-statistics/monty-hall-problem/).
+  </p>
+<br>
+<center> ![](images\monty.jpg) </center>
+<br>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At the beginning of the game, the host presents **three doors** wherein the player can pick **exactly one** only. Behind one of these doors, a **brand new car** awaits the winner, while the remaining two hide the so-called [**“zonks”**](https://gameshows.fandom.com/wiki/Zonk)–  unwanted booby prize. Their luck will be tested as they have a chance to bring home an extremely valuable prize. Initially, a blind test occurs since the player does not have any idea or basis on what door hides the precious car. After picking one, the host will then reveal one door containing zonk. The hardest decision-making lies after this, for the contestant will be given two options: **stay or switch**.</p>
+<br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Consequently, an internal conflict will arise. Battle of thoughts will make it really hard for the contestant to make his or her final decision. One of these doors sits your *dream car* while the other one contains an *undesirable prize*. Indeed, the player will break into a cold sweat. This scenario leads to academic controversies that weigh the probability of winning the game. </p>
+<br>
+<center>
+ ![](images\mix.jpg) </center>
+ 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To reduce the doubts and uncertainties, this problem is further analyzed, examined, and explained by several knowledgeable people. A common misconception is that the player will only have a *50/50 chance of winning* no matter what option he or she chooses. However, several scholars contradict this probability. **Marilyn vos Savant**, the person who has the highest recorded intelligence quotient, argues that the best option is to **switch**. [ --Click here to know more about Marilyn vos Savant--](https://biography.yourdictionary.com/marilyn-vos-savant)
+ </p>
+<br>
+
+
+*Will it really be an advantage if you switch?  
+<br>
+Can it really increase the odds of winning the car? *
+<br>
+<br>
+The following presentation will further tackle this issue.
+
+<br>
 
 
 
@@ -83,6 +103,20 @@ $$\large (40,475,358)(₱20)$$
 $$\large \hspace{0 mm}\fbox{=₱809,507,160}$$
 
 </center>
+
+***
+
+&nbsp;
+
+# References
+<br>
+
+  Marilyn vos savant. (n.d.). Retrieved from <https://biography.yourdictionary.com/marilyn-vos-savant>
+
+
+  Monty Hall problem: Solution explained simply. (2021, June 13). Retrieved from <https://www.statisticshowto.com/probability-and-statistics/monty-hall-problem/>
+ 
+  Zonk: Game Shows Wiki. (n.d.). Retrieved from <https://gameshows.fandom.com/wiki/Zonk>
 
 ```{css, echo = FALSE}
   body {
