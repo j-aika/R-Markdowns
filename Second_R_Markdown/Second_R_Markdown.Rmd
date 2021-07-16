@@ -8,22 +8,22 @@ output: html_document
 # Monty Hall Problem 
 
 <br>
-<!-- <<<<<<< HEAD -->
+<<<<<<< HEAD
 <center>
 <img src="https://paulvanderlaken.files.wordpress.com/2020/04/1_znfmn84nnlhyx5tfdblzg.jpeg?w=1108&h=720&crop=1" width="500">
 </center>
 <br>
 
-<!-- Montal Hall Problem <br> -->
-<!-- Fortune Teller. <br> -->
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; During 1960s, a probability puzzle challenged many statisticians and mathematicians in the TV game show named “Let’s Make a Deal”. The problem was named after the popular game show host “Monty Hall” himself and is now labeled as the famous “Monty Hall Problem”. In the game, three doors are 
+Montal Hall Problem <br>
+Fortune Teller. <br>
+    During 1960s, a probability puzzle challenged many statisticians and mathematicians in the TV game show named “Let’s Make a Deal”. The problem was named after the popular game show host “Monty Hall” himself and is now labeled as the famous “Monty Hall Problem”. In the game, three doors are 
 One of its game was called “Monty Hall” which was named after its famous game show host. 
 The game “Let’s Make A Deal” was popular because it gave the contestant a chance to win a car. It is a TV game show It was named after the popular game show host “Monty Hall.” Three doors will be presented and the contestant will have to pick one. Behind one of those doors, a red fascinating car awaits to be displayed and be taken home while the other two door contains “zonks” – goats. After the contestant chose a door, Monty will reveal one of the “zonks” by opening the door with it behind. After that you will be given a chance to switch. Now, an internal battle and a question will arise. Will it be an advantage if you switch? One of these doors sits your dream car. Will it really increase the odds of winning the car? There are two possible scenarios for this problem. First, you are able to choose the correct door and gving you the option to switch is just for confusion. The other one is that you picked the wrong door, and the chance Monty has given you will make you win. One that hides a shiny brand new car or two contains typical goats. Stick or switch. Common misconception is that there will be a 50 50 chance but no.  Undesirable prizes like goats. Stir up controversies in academics. 
 CAR] [GOAT] [GOAT] stay = win switch = lose you could also pick the middle goat box initially: [CAR] [GOAT] [GOAT] stay = lose switch = win you could also pick the third box initially: [CAR] [GOAT] [GOAT] stay = lose switch = win
 This is a controversial game because many statisticians and mathematicians argued on the probabilities of winning. At first, blind test firstly occur, you are more likely pick a goat because it has higher probability. this game, three doors will be introduced in front of you. There will be two scenarios. Either you will choose the correct door or pick the wrong door. The factor that will affect your change of winning is the switch option. The intriguing question is this game is “will it be really an advantage if you switch.”
 Switching your door increases the probability of getting the car.
 
-***
+
 
 # Lotto Problem
 
@@ -34,7 +34,7 @@ Switching your door increases the probability of getting the car.
 
 <br>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One of the most popular major games of PCSO is the Ultra Lotto 6/58. At ₱20 per ticket, how much would a bettor spend to cover all of the possible combinations. Would the grand prize of ₱50 million cover all the expenses or it would simply incur a massive loss on the bettor? </p>
+<p> One of the most popular major games of PCSO is the Ultra Lotto 6/58. At ₱20 per ticket, how much would a bettor spend to cover all of the possible combinations. Would the grand prize of ₱50 million cover all the expenses or it would simply incur a massive loss on the bettor? </p>
 
 <br>
 <center>
@@ -43,43 +43,25 @@ Switching your door increases the probability of getting the car.
 <br>
 
 
-**Ultra Lotto 6/58** is one of the lottery games in **PCSO(Philippine Charity Sweepstakes Office) Lottery Draw**. It is known by almost every Filipino and, for the record, there is a very small percentage of Filipinos who died without trying it even once. This game promises bettors to win millions of prizes when they got the right set of numbers in which **combination** is applied since **the order in which the numbers were drawn does not matter**, as long as you got the right set of numbers — **heaven is yours.**
+ **Ultra Lotto 6/58** is one of the lottery games in **PCSO(Philippine Charity Sweepstakes Office) Lottery Draw**. It is known by almost every Filipino and, for the record, there is a very small percentage of Filipinos who died without trying it even once. This game promises bettors to win millions of prizes when they got the right set of numbers in which **combination** is applied since **the order in which the numbers were drawn does not matter**, as long as you got the right set of numbers — **heaven is yours.**
  
 The grand prize will be given if an individual chooses the correct **six-number combination**. Smaller prizes will be given for those who picked 5 or 4 numbers correctly. So for the price of 20 pesos, you could instantly win millions of cash, but how hard is it to win that prize?
 
 **Solution:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In computing for the number of six-number combinations that can be made from 1-58, **Combination** shall be used because the order of selection is not important. By using the formula of combination, there is a total of **40,475,358 combinations**. The odds of winning the lottery is therefore **1 in a 40,475,358** each draw. If a ticket costs ₱20, the bettor would have to spend **809,507,160 Pesos worth of tickets** in order to choose all of the 40,475,358 combinations. The overall expenses of the bettor is not covered by the 50 million grand prize because the bettor would still need 759,507,160 Pesos more to cover all the expenses.
+In computing for the number of six-number combinations that can be made from 1-58, **Combination** shall be used because the order of selection is not important. By using the formula of combination, there is a total of **40,475,358 combinations**. The odds of winning the lottery is therefore **1 in a 40,475,358** each draw. If a ticket costs ₱20, the bettor would have to spend **809,507,160 Pesos worth of tickets** in order to choose all of the 40,475,358 combinations. The overall expenses of the bettor is not covered by the 50 million grand prize because the bettor would still need 759,507,160 Pesos more to cover all the expenses.
 
 In a more mathematical way, here is the explanation for the total amount to account all possibilities:
 
-<br>
-<br>
 
 <center>
-<p style="text-align: left;">
-Use the formula for combination without repetitions to determine how many combinations of numbers are there
-</p>
-
-$$\large {_{n}C_{k}=\frac{n!}{k!(n-k)!} }$$
-
-<p style="text-align: left;"> Here: <br>
-n = total number of choices <br>
-k = number of items we need to select <br><br>
-Subtitute the values for n and k </p>
-
+$$\LARGE {_{n}C_{k}=\frac{n!}{k!(n-k)!} }$$
 $$\LARGE {_{58}C_{6}=\frac{58!}{6!(58-6)!} }$$
-<p style="text-align: left;">
-Simplify and evaluate </p>
-
-$$\large {=\frac{58!}{6!52!} }$$
-
-$$\LARGE \hspace{20 mm}=40,475,358$$
-<p style="text-align: left;">
-After getting the no. of combinations, multiply it by 20 to determine how much would it cost to bet on all of the combinations </p>
+$$\LARGE {=\frac{58!}{6!52!} }$$
+$$\LARGE \hspace{25 mm}=40,475,358$$
 
 $$\LARGE (40,475,358)(₱20)$$
-$$\LARGE \hspace{0 mm}\fbox{=₱809,507,160}$$
+$$\LARGE \hspace{25 mm}\fbox{=₱809,507,160}$$
 
 </center>
 
