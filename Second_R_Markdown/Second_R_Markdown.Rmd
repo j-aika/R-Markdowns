@@ -7,6 +7,10 @@ output: html_document
 ---
 # Monty Hall Problem 
 
+<br>
+<center>
+<img src="https://paulvanderlaken.files.wordpress.com/2020/04/1_znfmn84nnlhyx5tfdblzg.jpeg?w=1108&h=720&crop=1" width="500">
+</center>
 
 # Lotto Problem
 
