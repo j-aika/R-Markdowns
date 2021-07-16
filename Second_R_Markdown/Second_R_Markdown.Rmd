@@ -5,6 +5,7 @@ author: Gian Nicole Villamayor, Jessica Dela Cruz, John Lester Santos, John Roll
 date: "7/16/2021"
 output: html_document
 ---
+***
 # Monty Hall Problem 
 
 <br>
@@ -43,29 +44,31 @@ The following presentation will further tackle this issue.
 
 <br>
 
-
+***
 
 # Lotto Problem
+
+
+<p> One of the most popular major games of PCSO is the Ultra Lotto 6/58. At ₱20 per ticket, how much would a bettor spend to cover all of the possible combinations. Would the grand prize of ₱50 million cover all the expenses or it would simply incur a massive loss on the bettor? </p>
+
 
 <br>
 <center>
 <img src="https://assets2.rappler.com/0905167574164573A2830F098AFA2FAD/img/33BD5B863C4746628A3BD60C6A384B2E/PCSO-lotto-draw-presscon-july-31-2019-004.jpg" width="500">
+<br>
+<br>
 </center>
 
-<br>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One of the most popular major games of PCSO is the Ultra Lotto 6/58. At ₱20 per ticket, how much would a bettor spend to cover all of the possible combinations. Would the grand prize of ₱50 million cover all the expenses or it would simply incur a massive loss on the bettor? </p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Ultra Lotto 6/58** is one of the lottery games in **PCSO(Philippine Charity Sweepstakes Office) Lottery Draw**. It is known by almost every Filipino and, for the record, there is a very small percentage of Filipinos who died without trying it even once. This game promises bettors to win millions of prizes when they got the right set of numbers in which **combination** is applied since **the order in which the numbers were drawn does not matter**, as long as you got the right set of numbers — **heaven is yours.**
 
 <br>
 <center>
 <img src="https://i.ytimg.com/vi/NdW8fINhRf4/hqdefault.jpg" width="500">
 </center>
 <br>
-
-
- **Ultra Lotto 6/58** is one of the lottery games in **PCSO(Philippine Charity Sweepstakes Office) Lottery Draw**. It is known by almost every Filipino and, for the record, there is a very small percentage of Filipinos who died without trying it even once. This game promises bettors to win millions of prizes when they got the right set of numbers in which **combination** is applied since **the order in which the numbers were drawn does not matter**, as long as you got the right set of numbers — **heaven is yours.**
  
-The grand prize will be given if an individual chooses the correct **six-number combination**. Smaller prizes will be given for those who picked 5 or 4 numbers correctly. So for the price of 20 pesos, you could instantly win millions of cash, but how hard is it to win that prize?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The grand prize will be given if an individual chooses the correct **six-number combination**. Smaller prizes will be given for those who picked 5 or 4 numbers correctly. So for the price of 20 pesos, you could instantly win millions of cash, but how hard is it to win that prize?
 
 **Solution:**
 
@@ -75,29 +78,29 @@ In a more mathematical way, here is the explanation for the total amount to acco
 
 
 <br>
-<br>
 
+
+
+$$\LARGE {_{n}C_{k}=\frac{n!}{k!(n-k)!} }$$
 <center>
 <p style="text-align: left;">
-Use the formula for combination without repetitions to determine how many combinations of numbers are there
+Use the formula for combination without repetitions to determine how many combinations of numbers are there.
 </p>
-
-$$\large {_{n}C_{k}=\frac{n!}{k!(n-k)!} }$$
 
 <p style="text-align: left;"> Here: <br>
 n = total number of choices <br>
 k = number of items we need to select <br><br>
-Subtitute the values for n and k </p>
+Subtitute the values for n and k. </p>
 
 $$\LARGE {_{58}C_{6}=\frac{58!}{6!(58-6)!} }$$
 <p style="text-align: left;">
-Simplify and evaluate </p>
+Simplify and evaluate. </p>
 
 $$\large {=\frac{58!}{6!52!} }$$
 
 $$\LARGE \hspace{20 mm}=40,475,358$$
 <p style="text-align: left;">
-After getting the no. of combinations, multiply it by 20 to determine how much would it cost to bet on all of the combinations </p>
+After getting the no. of combinations, multiply it by 20 to determine how much would it cost to bet on all of the combinations. </p>
 
 $$\large (40,475,358)(₱20)$$
 $$\large \hspace{0 mm}\fbox{=₱809,507,160}$$
@@ -109,7 +112,7 @@ $$\large \hspace{0 mm}\fbox{=₱809,507,160}$$
 &nbsp;
 
 # References
-<br>
+
 
   Marilyn vos savant. (n.d.). Retrieved from <https://biography.yourdictionary.com/marilyn-vos-savant>
 
