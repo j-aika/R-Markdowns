@@ -6,6 +6,14 @@ date: "7/16/2021"
 output: html_document
 ---
 # Monty Hall Problem 
+
+<br>
+<<<<<<< HEAD
+<center>
+<img src="https://paulvanderlaken.files.wordpress.com/2020/04/1_znfmn84nnlhyx5tfdblzg.jpeg?w=1108&h=720&crop=1" width="500">
+</center>
+<br>
+
 Montal Hall Problem <br>
 Fortune Teller. <br>
     During 1960s, a probability puzzle challenged many statisticians and mathematicians in the TV game show named “Let’s Make a Deal”. The problem was named after the popular game show host “Monty Hall” himself and is now labeled as the famous “Monty Hall Problem”. In the game, three doors are 
@@ -15,14 +23,7 @@ CAR] [GOAT] [GOAT] stay = win switch = lose you could also pick the middle goat 
 This is a controversial game because many statisticians and mathematicians argued on the probabilities of winning. At first, blind test firstly occur, you are more likely pick a goat because it has higher probability. this game, three doors will be introduced in front of you. There will be two scenarios. Either you will choose the correct door or pick the wrong door. The factor that will affect your change of winning is the switch option. The intriguing question is this game is “will it be really an advantage if you switch.”
 Switching your door increases the probability of getting the car.
 
-<br>
-<<<<<<< HEAD
-<center>
-<img src="https://paulvanderlaken.files.wordpress.com/2020/04/1_znfmn84nnlhyx5tfdblzg.jpeg?w=1108&h=720&crop=1" width="500">
-</center>
-=======
-<br>
->>>>>>> d6d49fa702e2344e76430e991f9ec88fe8cb030b
+
 
 # Lotto Problem
 
