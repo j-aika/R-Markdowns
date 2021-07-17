@@ -23,8 +23,11 @@ output: html_document
 <center> ![](images\monty.jpg) </center>
 <br>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At the beginning of the game, the host presents **three doors** wherein the player can pick **exactly one** only. Behind one of these doors, a **brand new car** awaits the winner, while the remaining two hide the so-called [**“zonks”**](https://gameshows.fandom.com/wiki/Zonk)–  unwanted booby prize. Their luck will be tested as they have a chance to bring home an extremely valuable prize. Initially, a blind test occurs since the player does not have any idea or basis on what door hides the precious car. After picking one, the host will then reveal one door containing zonk. The hardest decision-making lies after this, for the contestant will be given two options: **stay or switch**.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At the beginning of the game, the host presents **three doors** wherein the player can pick **exactly one** only. Behind one of these doors, a **brand new car** awaits the winner, while the remaining two hide the so-called [**“zonks”**](https://gameshows.fandom.com/wiki/Zonk)–  unwanted booby prize. Their luck will be tested as they have a chance to bring home an extremely valuable prize. Initially, a blind test occurs since the player does not have any idea or basis on which door hides the precious car. After picking one, the host will then reveal one door containing zonk. The hardest decision-making lies after this, for the contestant will be given two options: **stay or switch**.</p>
 <br>
+<center>
+ ![](images\2door.png) </center>
+ <br>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Consequently, an internal conflict will arise. Battle of thoughts will make it really hard for the contestant to make his or her final decision. One of these doors sits your *dream car* while the other one contains an *undesirable prize*. Indeed, the player will break into a cold sweat. This scenario leads to academic controversies that weigh the probability of winning the game. </p>
 <br>
 <center>
