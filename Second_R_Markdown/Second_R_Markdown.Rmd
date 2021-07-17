@@ -40,9 +40,11 @@ output: html_document
 Can it really increase the odds of winning the car? *
 <br>
 <br>
-The following presentation will further tackle this issue.
 
+
+[ This presentation from one of our Groupmates, Rollic Conducto, will further tackle this issue.](https://drive.google.com/drive/folders/1F3uycrLLMm0OPeg-ZXDJj23W9elaJ9BO?usp=sharing)
 <br>
+![](images\hatdog.png)
 
 ***
 
