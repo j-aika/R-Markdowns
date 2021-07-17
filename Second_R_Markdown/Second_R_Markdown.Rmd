@@ -79,7 +79,7 @@ Can it really increase the odds of winning the car? *
 
 **Solution:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In computing for the number of six-number combinations that can be made from 1-58, **Combination** shall be used because the order of selection is not important. By using the formula of combination, there is a total of **40,475,358 combinations**. The odds of winning the lottery is therefore **1 in a 40,475,358** each draw. If a ticket costs ₱20, the bettor would have to spend **809,507,160 Pesos worth of tickets** in order to choose all of the 40,475,358 combinations. The overall expenses of the bettor is not covered by the 50 million grand prize because the bettor would still need 759,507,160 Pesos more to cover all the expenses.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In computing for the number of six-number combinations that can be made from 1-58, **Combination** shall be used because the order of selection is not important. By using the formula of combination, there is a total of **40,475,358 combinations**. The odds of winning the lottery is therefore **1 in a 40,475,358** each draw. If a ticket costs ₱20, the bettor would have to spend **809,507,160 Pesos worth of tickets** in order to choose all of the 40,475,358 combinations. The overall expenses of the bettor would not covered by the 50 million grand prize because the bettor will still need 759,507,160 Pesos more to cover all the expenses.
 
 In a more mathematical way, here is the explanation for the total amount to account all possibilities:
 
