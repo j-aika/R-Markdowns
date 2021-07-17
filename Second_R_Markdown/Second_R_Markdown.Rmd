@@ -23,11 +23,8 @@ output: html_document
 <center> ![](images\monty.jpg) </center>
 <br>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At the beginning of the game, the host presents **three doors** wherein the player can pick **exactly one** only. Behind one of these doors, a **brand new car** awaits the winner, while the remaining two hide the so-called [**“zonks”**](https://gameshows.fandom.com/wiki/Zonk)–  unwanted booby prize. Their luck will be tested as they have a chance to bring home an extremely valuable prize. Initially, a blind test occurs since the player does not have any idea or basis on which door hides the precious car. After picking one, the host will then reveal one door containing zonk. The hardest decision-making lies after this, for the contestant will be given two options: **stay or switch**.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At the beginning of the game, the host presents **three doors** wherein the player can pick **exactly one** only. Behind one of these doors, a **brand new car** awaits the winner, while the remaining two hide the so-called [**“zonks”**](https://gameshows.fandom.com/wiki/Zonk)–  unwanted booby prize. Their luck will be tested as they have a chance to bring home an extremely valuable prize. Initially, a blind test occurs since the player does not have any idea or basis on what door hides the precious car. After picking one, the host will then reveal one door containing zonk. The hardest decision-making lies after this, for the contestant will be given two options: **stay or switch**.</p>
 <br>
-<center>
- ![](images\2door.png) </center>
- <br>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Consequently, an internal conflict will arise. Battle of thoughts will make it really hard for the contestant to make his or her final decision. One of these doors sits your *dream car* while the other one contains an *undesirable prize*. Indeed, the player will break into a cold sweat. This scenario leads to academic controversies that weigh the probability of winning the game. </p>
 <br>
 <center>
@@ -45,9 +42,10 @@ Can it really increase the odds of winning the car? *
 <br>
 
 
-[ This presentation from one of our Groupmates, Rollic Conducto, will further tackle this issue.](https://drive.google.com/drive/folders/1F3uycrLLMm0OPeg-ZXDJj23W9elaJ9BO?usp=sharing)
+[ This presentation from one of our groupmate, Rollic Conducto, will further tackle this issue.](https://drive.google.com/drive/folders/1F3uycrLLMm0OPeg-ZXDJj23W9elaJ9BO?usp=sharing)
 <br>
-![](images\hatdog.png)
+
+<center>![](images\hatdog.png)</center>
 
 ***
 
@@ -89,7 +87,7 @@ In a more mathematical way, here is the explanation for the total amount to acco
 $$\LARGE {_{n}C_{k}=\frac{n!}{k!(n-k)!} }$$
 <center>
 <p style="text-align: left;">
-Use the formula for combination without repetitions to determine how many combinations of numbers are there:
+Use the formula for combination without repetitions to determine how many combinations of numbers there are:
 </p>
 
 <p style="text-align: left;"> Here: <br>
@@ -107,8 +105,8 @@ $$\LARGE \hspace{20 mm}=40,475,358$$
 <p style="text-align: left;">
 After getting the no. of combinations, multiply it by 20 to determine how much would it cost to bet on all of the combinations: </p>
 
-$$\large (40,475,358)(₱20)$$
-$$\large \hspace{0 mm}\fbox{=₱809,507,160}$$
+$$\LARGE (40,475,358)(₱20)$$
+$$\LARGE \hspace{0 mm}\fbox{=₱809,507,160}$$
 <br>
 <p style="text-align: left;">
 Therefore, the grand prize 50 million pesos would not be enough to cover all the expenses and it would simply incur a massive loss on the bettor. </p>
