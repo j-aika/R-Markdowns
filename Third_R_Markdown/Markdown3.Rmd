@@ -1,10 +1,10 @@
 ---
 title: "Third Markdown Activity"
 author: 
--Gian Nicole Villamayor
--Jessica Dela Cruz
--John Lester Santos
--John Rollic Conducto
+- Gian Nicole Villamayor
+- Jessica Dela Cruz
+- John Lester Santos
+- John Rollic Conducto
 output: html_document
 ---
 
