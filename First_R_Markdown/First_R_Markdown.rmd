@@ -16,8 +16,6 @@ output:
 <br>
 <br>
 
-
-
 #### 1. It can determine Strengths and Weaknesses.
 
 + There can be many interpretations that can be extracted in a given data. It is important to learn and analyze data because it is our job as human beings *to extract meaning from the raw data.* These data can show patterns that may happen in the future based on the behavior of the data in the present. Data analyzation is important for companies or organizations because they can determine what parts are they **the strongest or the weakest.**
@@ -80,7 +78,7 @@ output:
 
 #### 2. Recommendation Systems
 
-+ One application of Data Science is in **recommendation systems** of applications such as Netflix, Spotify, Lazada, etc. The data from the previous choices of the user are collected and algorithms are used to determine what other items, songs or movies a user might prefer so that the system could recommend it to the user. By having this system, both the user and the provider benefit as it shortens the time of finding items and the user is most likely to be satisfied with the application. [ --Click here to read a more detailed article--](https://www.appier.com/blog/what-is-a-recommendation-engine-and-how-does-it-work/?fbclid=IwAR3qj5B65PCh5wyWeTZGS86eyst1tM-moAmHuxA_pFsefJKo1hIBe-bfosk)
++ One application of Data Science is in **recommendation systems** of applications such as Netflix, Spotify, Lazada, etc. The data from the previous choices of the user are collected and algorithms are used to determine what other items, songs or movies a user might prefer so that the system could recommend it to the user. By having this system, both the user and the provider benefit as it shortens the time of finding items and the user is most likely to be satisfied with the application. [ --Click here to read a more detailed article--](https://www.appier.com/blog/what-is-a-recommendation-engine-and-how-does-it-work/?fbclid=IwAR3qj5B65PCh5wyWeTZGS86eyst1tM-moAmHuxA_pFsefJKo1hIBe-bfosk){target="_blank"}
 
 <center> 
 ![](images\recom.jpeg) ![](images\recomsys.jpg)
