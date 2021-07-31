@@ -9,28 +9,57 @@ output: html_document
 ---
 
 ## Introduction
-<br>
-<br>
-
-<br>
+<p>
+The profile of the propagation environments as well as the local terrain significantly provide an impact to the performance of the radio waves signals in wireless channels.  Considering these information, the Received Signal Strength (RSS) of the transmitted signals are computed from the distinct data points that are relevant to the radio network planning and optimization.
+</p>
 
 ## Methodology
-<br>
-<br>
-<br>
-
-## Results
+## Regression Analysis: RSS versus Elevation, Altitude, Distance
+### Sector 2 (1800Mhz)
 ```{r, echo=FALSE}
 sector2_1800 = read.csv("Sector2(1800Mhz).csv")
 model <- lm(RSS ~ Elevation + Altitude + Distance, data = sector2_1800)
 summary(model)
+```
+### Sector 2 (900Mhz)
+```{r, echo=FALSE}
+sector2_900 = read.csv("Sector2(900Mhz).csv")
+model2 <- lm(RSS ~ Elevation + Altitude + Distance, data = sector2_900)
+summary(model2)
+```
+
+## Results and Discussion
+
+
+### Graphs
+
+<center>
+```{r, echo=FALSE}
 plot(model)
 ```
-<br>
+</center>
+
+
+### Graphs
+
+
+<center>
+```{r, echo=FALSE}
+plot(model)
+```
+</center>
+
 
 <br>
 
-## Discussion
 <br>
-<br>
+
+```{css, echo = FALSE}
+  body {
+    text-align: justify;
+  }
+p {
+  font-size: 20px;
+}
+```
 
