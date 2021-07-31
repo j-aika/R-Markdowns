@@ -9,8 +9,9 @@ output: html_document
 ---
 
 ```{r, echo=FALSE}
-optic_data = read.csv("Sector2(1800Mhz).csv")
-model <- lm(range ~ bright + contrast, data = optic_data)
+sector2_1800 = read.csv("Sector2(1800Mhz).csv")
+model <- lm(RSS ~ Elevation + Altitude + Distance, data = sector2_1800)
 summary(model)
+plot(model)
 ```
 
