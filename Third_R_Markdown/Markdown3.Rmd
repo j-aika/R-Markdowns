@@ -8,10 +8,29 @@ author:
 output: html_document
 ---
 
+## Introduction
+<br>
+<br>
+
+<br>
+
+## Methodology
+<br>
+<br>
+<br>
+
+## Results
 ```{r, echo=FALSE}
 sector2_1800 = read.csv("Sector2(1800Mhz).csv")
 model <- lm(RSS ~ Elevation + Altitude + Distance, data = sector2_1800)
 summary(model)
 plot(model)
 ```
+<br>
+
+<br>
+
+## Discussion
+<br>
+<br>
 
