@@ -1,0 +1,16 @@
+---
+title: "Third Markdown Activity"
+author: 
+-Gian Nicole Villamayor
+-Jessica Dela Cruz
+-John Lester Santos
+-John Rollic Conducto
+output: html_document
+---
+
+```{r, echo=FALSE}
+optic_data = read.csv("Sector2(1800Mhz).csv")
+model <- lm(range ~ bright + contrast, data = optic_data)
+summary(model)
+```
+
