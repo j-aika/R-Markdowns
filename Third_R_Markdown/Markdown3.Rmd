@@ -23,17 +23,16 @@ difference in mean reflection voltage, $μ_1 − μ_2$, and $Δ_0 = 0$.
 <p> **4. Test statistic:** The test statistic is
 $$\Large {t^*_0=\frac{\bar{x_1}- \bar{x_2}-0}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}} }}$$
 <p> **5. Reject** $H_0:μ_1 = μ_2$ **if:** Using α =0.05 and a fixed-significance-level
-test, we would reject $H_0:μ_1 = μ_2$ if $t^*_0 < -t_{0.05,300} = -1.65$.
+test, we would reject $H_0:μ_1 = μ_2$ if $t^*_0 < -t_{0.05,967} = -1.65$.
 <p> **6. Computations:**
 ```{r, echo=FALSE}
-test1<-read.csv("range1.csv")
+test1<-read.csv("all.csv")
 ```
 ```{r}
 t.test(test1$Au,test1$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
-<p> **7. Conclusion:** Because $t^*_0 = -3.91<-t_{0.05,300} = -1.65$, $H_0$ is rejected at the $α = 0.05$ level.
-<div class="ans"><p> *Practical Interpretation:* We conclude that the reflection voltage of a mirror with GaN is significantly lower than that of a mirror with Gold. Thus, it is better to use GaN than Gold from 110 Ghz-145.4Ghz
-  </p></div>
+<p> **7. Conclusion:** Because $t^*_0 = -13.399<-t_{0.05,967} = -1.65$, $H_0$ is rejected at the $α = 0.05$ level.
+<div class="ans"><p> *Practical Interpretation:* We conclude that semi insulating GaN significantly reduces the reflection voltage of a sapphire surface at millimeter wave frequencies 110-160 Ghz.
 
 ## Results and Discussion
 
@@ -61,6 +60,8 @@ t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 
 
 ### Graphs
+
+
 
 
 
