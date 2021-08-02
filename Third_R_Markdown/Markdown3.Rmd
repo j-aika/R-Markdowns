@@ -32,29 +32,21 @@ summary(model2)
 
 ```{r}
 test<-read.csv("range1.csv")
-```
-```{r}
 t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 
 ```{r}
 test<-read.csv("range2.csv")
-```
-```{r}
 t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 
 ```{r}
 test<-read.csv("range3.csv")
-```
-```{r}
 t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 
 ```{r}
 test<-read.csv("all.csv")
-```
-```{r}
 t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 
