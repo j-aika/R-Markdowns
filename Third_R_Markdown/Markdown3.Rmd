@@ -14,38 +14,46 @@ The profile of the propagation environments as well as the local terrain signifi
 </p>
 
 ## Methodology
-## Regression Analysis: RSS versus Elevation, Altitude, Distance
-### Sector 2 (1800Mhz)
+<p> **1. Parameter of interest:** The quantity of interest is the
+difference in mean reflection voltage, $μ_1 − μ_2$, and $Δ_0 = 0$.
+
+
+<p> **2. Null hypothesis:** $H_0: μ_1 − μ_2 = 0,$ or $H_0: μ_1 = μ_2.$
+<p> **3. Alternative hypothesis:** $H_1: μ_1 > μ_2$. We want to reject $H_0$ if the reflection voltage of the mirror with GaN is significantly lower than the mirror with Gold.
+<p> **4. Test statistic:** The test statistic is
+$$\Large {t^*_0=\frac{\bar{x_1}- \bar{x_2}-0}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}} }}$$
+<p> **5. Reject** $H_0:μ_1 = μ_2$ **if:** Using α =0.05 and a fixed-significance-level
+test, we would reject $H_0:μ_1 = μ_2$ if $t^*_0 < -t_{0.05,967} = -1.65$.
+<p> **6. Computations:**
 ```{r, echo=FALSE}
-sector2_1800 = read.csv("Sector2(1800Mhz).csv")
-model <- lm(RSS ~ Elevation + Altitude + Distance, data = sector2_1800)
-summary(model)
+test1<-read.csv("all.csv")
 ```
-### Sector 2 (900Mhz)
-```{r, echo=FALSE}
-sector2_900 = read.csv("Sector2(900Mhz).csv")
-model2 <- lm(RSS ~ Elevation + Altitude + Distance, data = sector2_900)
-summary(model2)
+```{r}
+t.test(test1$Au,test1$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
+<p> **7. Conclusion:** Because $t^*_0 = -13.399<-t_{0.05,967} = -1.65$, $H_0$ is rejected at the $α = 0.05$ level.
+<div class="ans"><p> *Practical Interpretation:* We conclude that semi insulating GaN significantly reduces the reflection voltage of a sapphire surface at millimeter wave frequencies 110-160 Ghz.
 
 ## Results and Discussion
 
-```{r}
+```{r, echo=FALSE}
 test<-read.csv("range1.csv")
+```
+```{r}
 t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 
-```{r}
+```{r, echo=FALSE}
 test<-read.csv("range2.csv")
 t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 
-```{r}
+```{r, echo=FALSE}
 test<-read.csv("range3.csv")
 t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 
-```{r}
+```{r, echo=FALSE}
 test<-read.csv("all.csv")
 t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
@@ -53,33 +61,8 @@ t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 
 ### Graphs
 
-<center>
-```{r, echo=FALSE}
-plot(model)
-```
-</center>
 
 
-### Graphs
 
 
-<center>
-```{r, echo=FALSE}
-plot(model)
-```
-</center>
-
-
-<br>
-
-<br>
-
-```{css, echo = FALSE}
-  body {
-    text-align: justify;
-  }
-p {
-  font-size: 20px;
-}
-```
 
