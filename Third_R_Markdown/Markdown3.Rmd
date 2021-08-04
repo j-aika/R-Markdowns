@@ -60,7 +60,7 @@ DiagrammeR::grViz("digraph {
   height = 500)
 ```
 
-At first, a reference voltage spectrum is generated using the highly polished gold mirror reflector, and then, the mirror is replaced using the N-GaN on sapphire wafer and the sample reflection voltage spectrum is obtained likewise:
+**At first, a reference voltage spectrum is generated using the highly polished gold mirror reflector, and then, the mirror is replaced using the N-GaN on sapphire wafer and the sample reflection voltage spectrum is obtained likewise:**
 <br>
 <br>
 
@@ -113,7 +113,7 @@ t.test(test1$Au,test1$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 <br>
 <br>
 <font size=3px><font color=#5C3317>
-This would imply that Semi Insulating N-Gallium Nitride (GaN) On Sapphire Surface plates has a potential in creating promising electronics or photoelectronic products in the future.**
+This would imply that Semi Insulating N-Gallium Nitride (GaN) On Sapphire Surface plates has a potential in creating promising electronics or optoelectronic products in the future.**
 </font></font>
 
 
