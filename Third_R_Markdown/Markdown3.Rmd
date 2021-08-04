@@ -7,8 +7,9 @@ author:
 - John Rollic Conducto
 output: html_document
 ---
+<br>
 
-## Research {.tabset}
+## Semi insulating N-gallium nitride (GaN) on sapphire surface reflection dataset obtained at millimeter wave frequencies 107.35–165 GHz {.tabset}
 
 ### **Introduction**
 
@@ -66,6 +67,11 @@ Replace gold mirror with sample as shown in position for N-GaN in Fig. 1 and rep
 4. Using statistics to compare the results and forming viable conclusions.
 
 </p>
+<br>
+<br>
+Table for Gathered Data
+
+insert picture hatdog
 
 
 ###Testing the Hypothesis
