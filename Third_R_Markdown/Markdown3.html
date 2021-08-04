@@ -205,8 +205,8 @@ pre code {
 <div id="methodology" class="section level3">
 <h3><strong>Methodology</strong></h3>
 <p>For the experimental part, the researchers collected voltages that signify real part of reflection coefficient spectra at a frequency resolution 100 MHz. These are the steps done in the acquisition of reflection voltage response data:</p>
-<div id="htmlwidget-12a2a6f0a0519de273aa" style="width:672px;height:500px;" class="grViz html-widget"></div>
-<script type="application/json" data-for="htmlwidget-12a2a6f0a0519de273aa">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"Step 1. Collection of gold mirror reflected (E0)\"]\n  rec2 [label = \"Step 2. Mounting N-GaN\"]\n  rec3 [label =  \"Step 3. Collection of New Data\"]\n  rec4 [label = \"Step 4. Statistical Analysis\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-00d7043ffbdf96c1809c" style="width:672px;height:500px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-00d7043ffbdf96c1809c">{"x":{"diagram":"digraph {\n  graph [layout = dot, rankdir = TB]\n  \n  node [shape = rectangle]        \n  rec1 [label = \"Step 1. Collection of gold mirror reflected (E0)\"]\n  rec2 [label = \"Step 2. Mounting N-GaN\"]\n  rec3 [label =  \"Step 3. Collection of New Data\"]\n  rec4 [label = \"Step 4. Statistical Analysis\"]\n  \n  # edge definitions with the node IDs\n  rec1 -> rec2 -> rec3 -> rec4\n  }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <ol style="list-style-type: decimal">
 <li><p>Collection of gold mirror reflected (E0) spectral response of ZBD voltage from the swept BWO data between 107.35–165 GHz with resolution of 0.1 GHz and store data along with 10-sample standard deviation profile obtained from digital multimeter.</p></li>
 <li><p>Mounting N-GaN sample and rotating sample holder by 24.6° while performing alignment tests so that maximum power is received.</p></li>
@@ -216,7 +216,9 @@ pre code {
 </p>
 <p><br> <br> Table for Gathered Data</p>
 <p>insert picture hatdog</p>
-<p>###Testing the Hypothesis</p>
+</div>
+<div id="results-and-discussion" class="section level3">
+<h3><strong>Results and Discussion</strong></h3>
 <p>
 <p><strong>1. Parameter of interest:</strong> The quantity of interest is the difference in mean reflection voltage, <span class="math inline">\(μ_1 − μ_2\)</span>, and <span class="math inline">\(Δ_0 = 0\)</span>.</p>
 <p>
@@ -247,59 +249,14 @@ pre code {
 <p>
 <p><em>Practical Interpretation:</em> We conclude that semi insulating GaN significantly reduces the reflection voltage of a sapphire surface at millimeter wave frequencies 110-160 Ghz.</p>
 </div>
-<div id="results-and-discussion" class="section level3">
-<h3><strong>Results and Discussion</strong></h3>
-<pre class="r"><code>t.test(test$Au,test$GaN, mu=0, alt=&quot;less&quot;, conf=0.95, var.equal=F, paired=F)</code></pre>
-<pre><code>## 
-##  Welch Two Sample t-test
-## 
-## data:  test$Au and test$GaN
-## t = -3.9114, df = 299.87, p-value = 5.677e-05
-## alternative hypothesis: true difference in means is less than 0
-## 95 percent confidence interval:
-##         -Inf -0.01009378
-## sample estimates:
-##  mean of x  mean of y 
-## -0.2155613 -0.1981032</code></pre>
-<pre><code>## 
-##  Welch Two Sample t-test
-## 
-## data:  test$Au and test$GaN
-## t = -11.318, df = 296.49, p-value &lt; 2.2e-16
-## alternative hypothesis: true difference in means is less than 0
-## 95 percent confidence interval:
-##         -Inf -0.02553522
-## sample estimates:
-##  mean of x  mean of y 
-## -0.2682133 -0.2383200</code></pre>
-<pre><code>## 
-##  Welch Two Sample t-test
-## 
-## data:  test$Au and test$GaN
-## t = -15.58, df = 383.32, p-value &lt; 2.2e-16
-## alternative hypothesis: true difference in means is less than 0
-## 95 percent confidence interval:
-##         -Inf -0.03495484
-## sample estimates:
-##  mean of x  mean of y 
-## -0.2538724 -0.2147806</code></pre>
-<pre><code>## 
-##  Welch Two Sample t-test
-## 
-## data:  test$Au and test$GaN
-## t = -13.399, df = 967.01, p-value &lt; 2.2e-16
-## alternative hypothesis: true difference in means is less than 0
-## 95 percent confidence interval:
-##         -Inf -0.02600202
-## sample estimates:
-##  mean of x  mean of y 
-## -0.2463134 -0.2166687</code></pre>
-</div>
-</div>
-<div id="graphs" class="section level2">
-<h2>Graphs</h2>
 <div id="references" class="section level3">
 <h3><strong>References</strong></h3>
+<p>[1] D. Montgomery and G. Runger, Applied statistics and probability for engineers, 7th ed. Wiley, 2017, pp. 262–279. <br></p>
+<p>[2] B. Roy, M. H. Wu, and B. Vlahovic, “Semi insulating n-gallium nitride (GaN) on sapphire surface reflection DATASET obtained at millimeter wave Frequencies 107.35–165 ghz,” Data in Brief, 17-Oct-2020. [Online]. Available: <a href="https://www.sciencedirect.com/science/article/pii/S2352340920313019?fbclid=IwAR1imNj78uBMeJ69A3ROEZN0KcKsRXL5lVvC50iPklANJh2n7wcg_BaSpZY." class="uri">https://www.sciencedirect.com/science/article/pii/S2352340920313019?fbclid=IwAR1imNj78uBMeJ69A3ROEZN0KcKsRXL5lVvC50iPklANJh2n7wcg_BaSpZY.</a> [Accessed: 28-Jul-2021]. <br></p>
+<p>[3] R. Cunningham, “First Fun with RMarkdown,” RPubs. [Online]. Available: <a href="https://rpubs.com/redrobincl/241336." class="uri">https://rpubs.com/redrobincl/241336.</a> [Accessed: 29-Jul-2021]. <br></p>
+<p>[4] “T.Test: Student’s t-test,” RDocumentation. [Online]. Available: <a href="https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test?fbclid=IwAR3X-DEeIaCng1ExhSWLP1CDcgXD0HdZbfbrKdnvb2LiLp343cl9Jgk9sbE." class="uri">https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test?fbclid=IwAR3X-DEeIaCng1ExhSWLP1CDcgXD0HdZbfbrKdnvb2LiLp343cl9Jgk9sbE.</a> [Accessed: 30-Jul-2021]. <br></p>
+<p>[5] Z.Sun, “How to Use Tabbed Sections in Rmarkdown,” RPubs. [Online]. Available: <a href="https://rpubs.com/sunzhe96/596831#:~:text=To%20implement%20the%20tabbed%20section,file%20to%20an%20html%20file." class="uri">https://rpubs.com/sunzhe96/596831#:~:text=To%20implement%20the%20tabbed%20section,file%20to%20an%20html%20file.</a> [Accessed: 29-Jul-2021]. <br></p>
+<p><br> <br></p>
 </div>
 </div>
 

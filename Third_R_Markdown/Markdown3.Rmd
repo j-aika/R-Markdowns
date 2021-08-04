@@ -9,7 +9,11 @@ output: html_document
 ---
 <br>
 
+
+
 ## Semi insulating N-gallium nitride (GaN) on sapphire surface reflection dataset obtained at millimeter wave frequencies 107.35–165 GHz {.tabset}
+
+
 
 ### **Introduction**
 
@@ -110,6 +114,20 @@ t.test(test1$Au,test1$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ### **References**
 
 
+[1] D. Montgomery and G. Runger, Applied statistics and probability for engineers, 7th ed. Wiley, 2017, pp. 262–279.
+<br>
 
+[2] B. Roy, M. H. Wu, and B. Vlahovic, “Semi insulating n-gallium nitride (GaN) on sapphire surface reflection DATASET obtained at millimeter wave Frequencies 107.35–165 ghz,” Data in Brief, 17-Oct-2020. [Online]. Available: <https://www.sciencedirect.com/science/article/pii/S2352340920313019?fbclid=IwAR1imNj78uBMeJ69A3ROEZN0KcKsRXL5lVvC50iPklANJh2n7wcg_BaSpZY.> [Accessed: 28-Jul-2021]. 
+<br>
 
+[3] R. Cunningham, “First Fun with RMarkdown,” RPubs. [Online]. Available: <https://rpubs.com/redrobincl/241336.> [Accessed: 29-Jul-2021]. 
+<br>
 
+[4] “T.Test: Student's t-test,” RDocumentation. [Online]. Available: <https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test?fbclid=IwAR3X-DEeIaCng1ExhSWLP1CDcgXD0HdZbfbrKdnvb2LiLp343cl9Jgk9sbE.> [Accessed: 30-Jul-2021]. 
+<br>
+
+[5] Z.Sun, “How to Use Tabbed Sections in Rmarkdown,” RPubs. [Online]. Available: <https://rpubs.com/sunzhe96/596831#:~:text=To%20implement%20the%20tabbed%20section,file%20to%20an%20html%20file.> [Accessed: 29-Jul-2021].
+<br>
+
+<br>
+<br>
