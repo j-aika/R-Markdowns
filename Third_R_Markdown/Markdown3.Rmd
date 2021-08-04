@@ -11,7 +11,7 @@ output: html_document
 
 
 
-## Semi insulating N-gallium nitride (GaN) on sapphire surface reflection dataset obtained at millimeter wave frequencies 107.35–165 GHz {.tabset}
+## SEMI INSULATING N-GALLIUM NITRIDE (GaN) ON SAPPHIRE SURFACE REFLECTION DATASET OBTAINED AT MILLIMETER WAVE FREQUENCIES 107.35–165 GHz {.tabset}
 
 
 
@@ -32,7 +32,8 @@ On the other hand, Silicon-doped N-Gallium Nitride (N-GaN) on sapphire with C-pl
 
 Gallium nitride is a sturdy and stable bandgap semiconductor that is used in the production of power devices as well as light emitting diodes (LED). In this study, the researchers aim to understand the behavior of the Semi insulating N-Gallium Nitride on sapphire surface reflection in different wave frequencies. 
 
-The voltage reflected from the Silicon-doped N-GaN sample will be compared with the initially undoped setup containing the voltage collected from the gold mirror. Their respected spectral response of ZBD voltage will be compared and analyzed  in the unique probe range 107.35–165 GHz.
+The voltage reflected from the Silicon-doped N-GaN sample will be compared with the initially undoped setup containing the voltage collected from the gold mirror. Their respected spectral response of ZBD voltage will be compared and analyzed  in the unique probe range 107.35–165 GHz. The goal here is to see if the N-GaN reflection can effectively lower the voltage reflected when it is used for insulation.
+
 
 <center> ![](images\third.png) </center>
 
@@ -59,16 +60,17 @@ DiagrammeR::grViz("digraph {
   height = 500)
 ```
 
-1.
-Collection of gold mirror reflected (E0) spectral response of ZBD voltage from the swept BWO data between 107.35–165 GHz with resolution of 0.1 GHz and store data along with 10-sample standard deviation profile obtained from digital multimeter.
+At first, a reference voltage spectrum is generated using the highly polished gold mirror reflector, and then, the mirror is replaced using the N-GaN on sapphire wafer and the sample reflection voltage spectrum is obtained likewise:
+<br>
+<br>
 
-2.
-Mounting N-GaN sample and rotating sample holder by 24.6° while performing alignment tests so that maximum power is received.
+1.Collection of gold mirror reflected (E0) spectral response of ZBD voltage from the swept BWO data between 107.35–165 GHz with resolution of 0.1 GHz and store data along with 10-sample standard deviation profile obtained from digital multimeter.
 
-3.
-Replace gold mirror with sample as shown in position for N-GaN in Fig. 1 and repeat step 1 for collection of sample E0ρ (reflected voltage) data as function of frequency and corresponding standard deviation data from digital multimeter also using LabVIEW.
+2.Mounting N-GaN sample and rotating sample holder by 24.6° while performing alignment tests so that maximum power is received.
 
-4. Using statistics to compare the results and forming viable conclusions.
+3.Replace gold mirror with sample as shown in position for N-GaN in Fig. 1 and repeat step 1 for collection of sample E0ρ (reflected voltage) data as function of frequency and corresponding standard deviation data from digital multimeter also using LabVIEW.
+
+4.Using statistics to compare the results and forming viable conclusions.
 
 </p>
 <br>
@@ -83,12 +85,16 @@ insert picture hatdog
 
 ### **Results and Discussion**
 
+<br>
+let $μ_1$ = mean of the GaN insulated reflections
+<br>
+let $μ_2$ = mean of not GaN insulated reflections
 <p> **1. Parameter of interest:** The quantity of interest is the
 difference in mean reflection voltage, $μ_1 − μ_2$, and $Δ_0 = 0$.
 
 
 <p> **2. Null hypothesis:** $H_0: μ_1 − μ_2 = 0,$ or $H_0: μ_1 = μ_2.$
-<p> **3. Alternative hypothesis:** $H_1: μ_1 > μ_2$. We want to reject $H_0$ if the reflection voltage of the mirror with GaN is significantly lower than the mirror with Gold.
+<p> **3. Alternative hypothesis:** $H_1: μ_1 < μ_2$. We want to reject $H_0$ if the reflection voltage of the mirror with GaN is significantly lower than the mirror with Gold.
 <p> **4. Test statistic:** The test statistic is
 $$\Large {t^*_0=\frac{\bar{x_1}- \bar{x_2}-0}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}} }}$$
 <p> **5. Reject** $H_0:μ_1 = μ_2$ **if:** Using α =0.05 and a fixed-significance-level
@@ -101,7 +107,14 @@ test1<-read.csv("all.csv")
 t.test(test1$Au,test1$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 <p> **7. Conclusion:** Because $t^*_0 = -13.399<-t_{0.05,967} = -1.65$, $H_0$ is rejected at the $α = 0.05$ level.
-<div class="ans"><p> *Practical Interpretation:* We conclude that semi insulating GaN significantly reduces the reflection voltage of a sapphire surface at millimeter wave frequencies 110-160 Ghz.
+<div class="ans"><p> 
+<br>
+**Since the null hypothesis is rejected, the researchers therefore conclude that semi insulating GaN significantly reduces the reflection voltage of a sapphire surface at millimeter wave frequencies 110-160 Ghz. 
+<br>
+<br>
+<font size=3px><font color=#5C3317>
+This would imply that Semi Insulating N-Gallium Nitride (GaN) On Sapphire Surface plates has a potential in creating promising electronics or photoelectronic products in the future.**
+</font></font>
 
 
 
