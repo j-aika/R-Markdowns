@@ -92,7 +92,7 @@ dt<-here::here("datagan.csv") %>%
 
 ```{r, echo=FALSE, results="asis"}
 dt %>%
-  kbl(caption = "Table for Gathered Data") %>%
+  kbl(caption = "Table for Gathered Data (warning super long)") %>%
   kable_classic(full_width = F, html_font = "Cambria")
 ```
 
