@@ -68,7 +68,8 @@ Replace gold mirror with sample as shown in position for N-GaN in Fig. 1 and rep
 </p>
 
 
-###Testing the Hypothesis
+
+### **Results and Discussion**
 
 <p> **1. Parameter of interest:** The quantity of interest is the
 difference in mean reflection voltage, $μ_1 − μ_2$, and $Δ_0 = 0$.
@@ -89,39 +90,6 @@ t.test(test1$Au,test1$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 <p> **7. Conclusion:** Because $t^*_0 = -13.399<-t_{0.05,967} = -1.65$, $H_0$ is rejected at the $α = 0.05$ level.
 <div class="ans"><p> *Practical Interpretation:* We conclude that semi insulating GaN significantly reduces the reflection voltage of a sapphire surface at millimeter wave frequencies 110-160 Ghz.
-
-### **Results and Discussion**
-
-```{r, echo=FALSE}
-test<-read.csv("range1.csv")
-```
-```{r}
-t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
-```
-
-```{r, echo=FALSE}
-test<-read.csv("range2.csv")
-t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
-```
-
-```{r, echo=FALSE}
-test<-read.csv("range3.csv")
-t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
-```
-
-```{r, echo=FALSE}
-test<-read.csv("all.csv")
-t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
-```
-
-
-
-## Graphs
-
-
-
-
-
 
 ### **References**
 
