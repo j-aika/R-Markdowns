@@ -8,34 +8,37 @@ author:
 output: html_document
 ---
 
-## Introduction 
+## Research {.tabset}
+
+### **Introduction**
+
 
 <p>
 Since the rise of technological advancements, there has been an unending search for new products or discoveries that would enable electronic devices to exhibit better functionalities compared to their older versions.
 
-Insert Picture:
-https://www.google.com/search?q=optoelectronic+devices&rlz=1C1BNSD_enPH940PH940&source=lnms&tbm=isch&sa=X&sqi=2&ved=2ahUKEwju4Mac65byAhU_pZUCHb5-D50Q_AUoAXoECAEQAw&biw=1366&bih=657#imgrc=m8f2EQBuHa1xFM
+<center> ![](images\Optoelectronics.png) </center>
+<br>
 
 In optoelectronics, devices all depend on the use of certain elements in order to produce quality semiconductor doping results. For instance, adding small amounts of phosphorus turns silicon (Si) into a conductor for electrons (n-type), and adding small amounts of boron turns Si into a hole conductor (p-type). Light-emitting devices require the ability to dope material as both n-type and p-type, so that electrons and holes can be injected and transported to the active layer, where they recombine and emit light. Such ambipolar doping has been a longstanding problem in the wide-band-gap semiconductors that are used in short-wavelength light emitters (green, blue, or UV). 
 
 On the other hand, Silicon-doped N-Gallium Nitride (N-GaN) on sapphire with C-plane is an important electronic material used for sensors, amplifiers, power and control devices, and photoluminescence. 2-photon absorption (TPA) process is an important property of Ga-N wafers. TPA uses frequency dependent refractive indices which shows promising reflectance rate when evaluating dielectric and optical metrics property.
 
-Insert [https://www.google.com/search?q=Silicon-doped+N-+Gallium+Nitride&rlz=1C1BNSD_enPH940PH940&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj8iYqa8pbyAhUx-mEKHeQ3BQQQ_AUoAXoECAIQAw&biw=1366&bih=600#imgrc=rPIJdc70KvtAiM]
+<center> ![](images\second.jpeg) </center>
 
 Gallium nitride is a sturdy and stable bandgap semiconductor that is used in the production of power devices as well as light emitting diodes (LED). In this study, the researchers aim to understand the behavior of the Semi insulating N-Gallium Nitride on sapphire surface reflection in different wave frequencies. 
 
 The voltage reflected from the Silicon-doped N-GaN sample will be compared with the initially undoped setup containing the voltage collected from the gold mirror. Their respected spectral response of ZBD voltage will be compared and analyzed  in the unique probe range 107.35–165 GHz.
 
-**  Insert hatdog ** 
+<center> ![](images\third.png) </center>
 
 
 
-## Methodology
+### **Methodology**
 
 For the experimental part, the researchers collected voltages that signify real part of reflection coefficient spectra at a frequency resolution 100 MHz. These are the steps done in the acquisition of reflection voltage response data:
 
 
-```{r}
+```{r, echo=FALSE}
 DiagrammeR::grViz("digraph {
   graph [layout = dot, rankdir = TB]
   
@@ -64,6 +67,7 @@ Replace gold mirror with sample as shown in position for N-GaN in Fig. 1 and rep
 
 </p>
 
+
 ###Testing the Hypothesis
 
 <p> **1. Parameter of interest:** The quantity of interest is the
@@ -86,7 +90,7 @@ t.test(test1$Au,test1$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 <p> **7. Conclusion:** Because $t^*_0 = -13.399<-t_{0.05,967} = -1.65$, $H_0$ is rejected at the $α = 0.05$ level.
 <div class="ans"><p> *Practical Interpretation:* We conclude that semi insulating GaN significantly reduces the reflection voltage of a sapphire surface at millimeter wave frequencies 110-160 Ghz.
 
-## Results and Discussion
+### **Results and Discussion**
 
 ```{r, echo=FALSE}
 test<-read.csv("range1.csv")
@@ -111,8 +115,15 @@ t.test(test$Au,test$GaN, mu=0, alt="less", conf=0.95, var.equal=F, paired=F)
 ```
 
 
-### Graphs
 
+## Graphs
+
+
+
+
+
+
+### **References**
 
 
 
