@@ -6,14 +6,19 @@ date: "8/6/2021"
 output: html_document
 ---
 
+```{css, echo=FALSE}
+h2 {
+  text-align: center;
+}
+```
 
-## cahc {.tabset}
+## Received signal strength and local terrain profile data for radio network planning and optimization at GSM frequency bands {.tabset}
 
 ### **Introduction**
 
+In the 21st century, numerous advancements in technology are currently being study with the goal of improving it once again. Smart phones and Smart TV's have shaped the 21st century. Due to the demand of these smart technologies, mobile networks should also improve in order to cope up with the demmands of these smart devices. 
 
-
-
+There are many variables that can affect the strength of radio waves. The variables analyzed in this research are the terrain elevation, clutter height, altitude, and the distance from the mobile station. 
 
 
 ### **Methodology**

@@ -171,10 +171,17 @@ pre code {
 </div>
 
 
-<div id="cahc" class="section level2 tabset">
-<h2 class="tabset">cahc</h2>
+<style type="text/css">
+h2 {
+  text-align: center;
+}
+</style>
+<div id="received-signal-strength-and-local-terrain-profile-data-for-radio-network-planning-and-optimization-at-gsm-frequency-bands" class="section level2 tabset">
+<h2 class="tabset">Received signal strength and local terrain profile data for radio network planning and optimization at GSM frequency bands</h2>
 <div id="introduction" class="section level3">
 <h3><strong>Introduction</strong></h3>
+<p>In the 21st century, numerous advancements in technology are currently being study with the goal of improving it once again. Smart phones and Smart TV’s have shaped the 21st century. Due to the demand of these smart technologies, mobile networks should also improve in order to cope up with the demmands of these smart devices.</p>
+<p>There are many variables that can affect the strength of radio waves. The variables analyzed in this research are the terrain elevation, clutter height, altitude, and the distance from the mobile station.</p>
 </div>
 <div id="methodology" class="section level3">
 <h3><strong>Methodology</strong></h3>
@@ -204,33 +211,39 @@ pre code {
 ## Residual standard error: 8.656 on 175 degrees of freedom
 ## Multiple R-squared:  0.09314,    Adjusted R-squared:  0.07759 
 ## F-statistic: 5.991 on 3 and 175 DF,  p-value: 0.0006562</code></pre>
+<p><span class="math display">\[ Signal\:Strength = -74.402204-1.347962\:terrain\:elevation+0.252856\:altitude-0.001454\:distance\]</span></p>
 <h3>
-1800 MHz
+<b>T-test on each regression coefficient (α=0.05).
 </h3>
-<pre><code>## 
-## Call:
-## lm(formula = rss ~ elevation + altitude + distance, data = dt1)
-## 
-## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -15.828  -4.193   0.814   4.011  12.046 
-## 
-## Coefficients:
-##               Estimate Std. Error t value Pr(&gt;|t|)    
-## (Intercept) -1.210e+02  8.025e+00 -15.080  &lt; 2e-16 ***
-## elevation   -3.196e-01  3.712e-01  -0.861     0.39    
-## altitude     3.590e+00  5.483e-01   6.548 6.26e-10 ***
-## distance    -1.133e-02  1.291e-03  -8.779 1.46e-15 ***
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
-## 
-## Residual standard error: 5.653 on 175 degrees of freedom
-## Multiple R-squared:  0.3989, Adjusted R-squared:  0.3886 
-## F-statistic: 38.71 on 3 and 175 DF,  p-value: &lt; 2.2e-16</code></pre>
+</b>
+<p>
+<strong>Hypotheses:</strong>
+</p>
+<br> <span class="math inline">\(\large H_0:B_0=0,\: H_1:B_0\neq0,\:B_0=intercept\)</span><br> <span class="math inline">\(\large H_0:B_1=0,\: H_1:B_1\neq0,\:B_1=coefficient\:of\:terrain\:elevation\)</span><br> <span class="math inline">\(\large H_0:B_2=0,\: H_1:B_2\neq0,\:B_2=coefficient\:of\:altitude\)</span><br> <span class="math inline">\(\large H_0:B_3=0,\: H_1:B_3\neq0,\:B_3=coefficient\:of\:distance\)</span><br><br>
+<p>
+<strong>Reject</strong> <span class="math inline">\(H_0:B=0\)</span> <strong>if: the P-value is less than 0.05.</strong>
+</p>
+<p>
+<strong>Test statistic:</strong>
+</p>
+<p>
+Based from table 2.1
+</p>
+<span class="math display">\[\large P_0=7.74*10^-9\]</span> <span class="math display">\[\large P_1=0.019\]</span> <span class="math display">\[\large t_2=0.763\]</span> <span class="math display">\[\large t_3=0.460\]</span>
+<p>
+Conclusion: The researchers only reject the null hypothesis for <span class="math inline">\(B_1\)</span>.
+<p>
+<em>Practical Interpretation:</em> The t-tests indicate that only the altitude contribute to the model
+</p>
 </div>
 <div id="references" class="section level3">
 <h3><strong>References</strong></h3>
 <p><br> <br> <br></p>
+<style type="text/css">
+p {
+  font-size: 15px;
+}
+</style>
 </div>
 </div>
 
