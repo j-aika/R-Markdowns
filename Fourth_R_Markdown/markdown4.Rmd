@@ -35,9 +35,9 @@ $$ Signal\:Strength = -74.402204-1.347962\:terrain\:elevation+0.252856\:altitude
 <h3><b>T-test on each regression coefficient (α=0.05). </h3></b>
 <p>**Hypotheses:** </p><br>
 $\large H_0:B_0=0,\: H_1:B_0\neq0,\:B_0=intercept$<br>
-$\large H_0:B_1=0,\: H_1:B_1\neq0,\:B_1=terrain\:elevation$<br>
-$\large H_0:B_2=0,\: H_1:B_2\neq0,\:B_2=altitude$<br>
-$\large H_0:B_3=0,\: H_1:B_3\neq0,\:B_3=distance$<br><br>
+$\large H_0:B_1=0,\: H_1:B_1\neq0,\:B_1=coefficient\:of\:terrain\:elevation$<br>
+$\large H_0:B_2=0,\: H_1:B_2\neq0,\:B_2=coefficient\:of\:altitude$<br>
+$\large H_0:B_3=0,\: H_1:B_3\neq0,\:B_3=coefficient\:of\:distance$<br><br>
 <p>**Reject** $H_0:B=0$ **if: the P-value is less than 0.05.** </p>
 <p>**Test statistic:** </p>
 <p>Based from table 2.1</p>
