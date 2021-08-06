@@ -46,16 +46,9 @@ $$\large P_1=0.019$$
 $$\large t_2=0.763$$
 $$\large t_3=0.460$$
 <p>Conclusion: The researchers only reject the null hypothesis for $B_1$. 
-<p>*Practical Interpretation:* Altitude is the only significant to the model </p> 
-
-<h3> 1800 MHz </h3>
-
+<p>*Practical Interpretation:* The t-tests indicate that only the altitude contribute to the model </p> 
 ```{r, echo=FALSE}
-dt1 = read.csv("sec3_1800.csv")
-model <- lm(rss ~ elevation + altitude + distance, data = dt1)
-summary(model)
 ```
-
 
 
 
