@@ -1,0 +1,57 @@
+---
+title: "Fourth R Markdown"
+author: Gian Nicole Villamayor, Jessica Dela Cruz, John Lester Santos, John Rollic
+  Conducto
+date: "8/6/2021"
+output: html_document
+---
+
+
+## cahc {.tabset}
+
+### **Introduction**
+
+
+
+
+
+
+### **Methodology**
+
+
+
+
+### **Results and Discussion**
+<h3> 900 MHz </h3>
+
+```{r, echo=FALSE}
+dt1 = read.csv("sec3_900.csv")
+model <- lm(rss ~ elevation + altitude + distance, data = dt1)
+summary(model)
+```
+
+<h3> 1800 MHz </h3>
+
+```{r, echo=FALSE}
+dt1 = read.csv("sec3_1800.csv")
+model <- lm(rss ~ elevation + altitude + distance, data = dt1)
+summary(model)
+```
+
+
+
+
+
+
+
+
+
+
+### **References**
+
+
+
+<br>
+<br>
+<br>
+
