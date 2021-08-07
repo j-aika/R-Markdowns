@@ -82,6 +82,20 @@ $$\large t_3=0.460$$
 ### **References**
 
 
+[1] D. Montgomery and G. Runger, Applied statistics and probability for engineers, 7th ed. Wiley, 2017, pp. 262–279.
+<br>
+
+[2] S. I. Popoola, A. A. Atayero, and N. Faruk, “Received signal strength and local terrain profile data for radio network planning and optimization at GSM frequency bands,” Data in Brief, 19-Dec-2017. [Online]. Available: <https://www.sciencedirect.com/science/article/pii/S235234091730731X?fbclid=IwAR0TQ-t3vYfTk29GxgbIEMz1yOLUhOU4Ki4CdHfe3mT_VNB9gH19kMMSrn8>. [Accessed: 02-Aug-2021]. 
+<br>
+
+[3] R. Cunningham, “First Fun with RMarkdown,” RPubs. [Online]. Available: <https://rpubs.com/redrobincl/241336.> [Accessed: 02-Aug-2021]. 
+<br>
+
+[4] “T.Test: Student's t-test,” RDocumentation. [Online]. Available: <https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/t.test?fbclid=IwAR3X-DEeIaCng1ExhSWLP1CDcgXD0HdZbfbrKdnvb2LiLp343cl9Jgk9sbE.> [Accessed: 30-Jul-2021]. 
+<br>
+
+[5] Z.Sun, “How to Use Tabbed Sections in Rmarkdown,” RPubs. [Online]. Available: <https://rpubs.com/sunzhe96/596831#:~:text=To%20implement%20the%20tabbed%20section,file%20to%20an%20html%20file.> [Accessed: 29-Jul-2021].
+<br>
 
 <br>
 <br>
