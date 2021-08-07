@@ -16,9 +16,25 @@ h2 {
 
 ### **Introduction**
 
-In the 21st century, numerous advancements in technology are currently being study with the goal of improving it once again. Smart phones and Smart TV's have shaped the 21st century. Due to the demand of these smart technologies, mobile networks should also improve in order to cope up with the demmands of these smart devices. 
+<br>
+In the contemporary world, numerous advancements in technology are being discovered and utilized, in line with the goal of enhancing it further. Everything is constantly developing in such ways just like how instant messaging applications have taken over the mailman’s job. 
+<br>
+<br>
+<center> ![](images\hat.png) [ --- Image source ---](https://2ee0tsdb27ngz4ba31r09l6e-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/VAI-Twitter-Header-Flat.jpg)</center>
+<br>
+During the 21st century, Smartphones and Smart TVs have shaped the world. Due to the large demand for these innovations, mobile networks have also been studied and improved in order to cope up with the development of smart devices. The Received Signal Strength (RSS) of the transmitted signals are investigated as well as the factors that affect the strength of radio waves in wireless channels. Terrain elevation, clutter height, altitude, and the distance from the mobile station are some of the variables that are significant in this research.
+<br>
+<br>
+<center> ![](images\rss.png) </center>
+<br>
+In radio network planning and optimization, the profile of the propagation environments and the local terrain are crucial in determining the performance of the radio waves. It varies depending on the terrain parameters and RSS of the location.
+<br>
 
-There are many variables that can affect the strength of radio waves. The variables analyzed in this research are the terrain elevation, clutter height, altitude, and the distance from the mobile station. 
+The correlation between the signal power and propagation environment provides a formulation of the radio propagation models which is essential to predict the strength of the radio waves.
+
+<br>
+<br>
+<br>
 
 
 ### **Methodology**
