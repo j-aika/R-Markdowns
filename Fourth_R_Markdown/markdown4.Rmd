@@ -30,7 +30,7 @@ During the 21st century, Smartphones and Smart TVs have shaped the world. Due to
 In radio network planning and optimization, the profile of the propagation environments and the local terrain are crucial in determining the performance of the radio waves. It varies depending on the terrain parameters and RSS of the location.
 <br>
 
-The correlation between the signal power and propagation environment provides a formulation of the radio propagation models which is essential to predict the strength of the radio waves.
+Due to that, the researchers in this study analyzed the correlation between the signal power and propagation environment involving the 3 variables that could af fect the strength of radio waves:Terrain elevation, clutter height, altitude, and the distance from the mobile station. They used a formulation of the radio propagation models to predict the strength of the radio waves under controlled conditions and analyzed the results using linear regression analysis.
 
 <br>
 <br>
@@ -38,7 +38,30 @@ The correlation between the signal power and propagation environment provides a 
 
 
 ### **Methodology**
+<br>
+Since the behaviour of radio wave signals in a wireless channel depends on the local terrain profile of the propagation environments, the researchers in this study recorded the Received Signal Strength (RSS) of transmitted signals at different points in space for radio network planning and optimization. In this setup, RSS data of a commercial base station operating at 900 and 1800 MHz were measured along three different routes of Lagos-Badagry Highway, Nigeria. In addition, local terrain profile data of the study area (terrain elevation, clutter height, altitude, and the distance of the mobile station from the base station) are extracted from Digital Terrain Map (DTM) to account for the unique environmental features. 
+<br>
+<br>
+The steps that the researchers have done in order to conclude the experiment were as follows:
 
+```{r, echo=FALSE}
+DiagrammeR::grViz("digraph {
+  graph [layout = dot, rankdir = TB]
+  
+  node [shape = rectangle]        
+  rec1 [label = '1.Do an extensive measurement campaign']
+  rec2 [label = '2.Plot 3 different routes for the signals']
+  rec3 [label =  '3.Span the radio coverage area at 900 and 1800 MHz']
+  rec4 [label = '4.Use Transmission Evaluation and Monitoring System (TEMS) to measure and analyze the results']
+  
+  # edge definitions with the node IDs
+  rec1 -> rec2 -> rec3 -> rec4
+  }",
+  height = 500)
+```
+
+<br>
+They first did an extensive measurement campaign along Lagos-Badagry Expressway, Nigeria and then plotted 3 different routes for their signals to go through the experiment. They expanded the radio coverage area of a base transceiver station to operate at 900 and 1800 MHz. Lastly, they performed the data collection process through the use of the Transmission Evaluation and Monitoring System (TEMS) network performance investigation software and explicated the results though certain statistical treatments.
 
 
 
@@ -66,8 +89,9 @@ $$\large P_0=7.74*10^-9$$
 $$\large P_1=0.019$$
 $$\large t_2=0.763$$
 $$\large t_3=0.460$$
-<p>Conclusion: The researchers only reject the null hypothesis for $B_1$. 
-<p>*Practical Interpretation:* The t-tests indicate that only the altitude contribute to the model </p> 
+<p>Conclusion: At 900 MHz, the researchers only reject the null hypothesis for $B_1$. 
+<p>*Practical Interpretation:* 
+This means that among the factors, terrain elevation, altitude, and distance from the source, only the altitude contributes significantly on the strength of the radio waves or signals that were released at 900MHz. The original study measured both the results at 900MHz and 1800 MHz but the students who made this report only focused on the former. Nevertheless, this still shows that advancements in this field must focus on this area in order to develop quality mobile networks, internet signals, and the likes. </p> 
 ```{r, echo=FALSE}
 ```
 
