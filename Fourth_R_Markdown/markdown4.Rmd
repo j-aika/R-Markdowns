@@ -91,7 +91,7 @@ $$\large t_2=0.763$$
 $$\large t_3=0.460$$
 <p>Conclusion: At 900 MHz, the researchers only reject the null hypothesis for $B_1$. 
 <p>*Practical Interpretation:* 
-This means that among the factors, terrain elevation, altitude, and distance from the source, only the altitude contributes significantly on the strength of the radio waves or signals that were released at 900MHz. The original study measured both the results at 900MHz and 1800 MHz but the students who made this report only focused on the former. Nevertheless, this still shows that advancements in this field must focus on this area in order to develop quality mobile networks, internet signals, and the likes. </p> 
+**This means that among the factors, terrain elevation, altitude, and distance from the source, only the altitude contributes significantly on the strength of the radio waves or signals that were released at 900MHz. The original study measured both the results at 900MHz and 1800 MHz, but the students who made this report only focused on the former. Nevertheless, this still shows that advancements in this field must focus on this area in order to develop quality mobile networks, internet signals, and the likes.** </p> 
 ```{r, echo=FALSE}
 ```
 
